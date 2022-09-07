@@ -1,0 +1,21 @@
+header {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+
+header h3 {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(240, 23%, 97%);
+  font-weight: bold;
+  transition: color .1s;
+}
+
+a:hover {
+  color: #6ea8ee;
+}
